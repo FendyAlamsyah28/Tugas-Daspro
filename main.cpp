@@ -4,25 +4,45 @@ using namespace std;
 
 int main()
 {
-    cout << "Fendy Alamsyah" << endl;
-
-    int u = 18;
-    //bilangan bulat
-    float t = 172.3;
-    //bilangan pecahan
-    char b = 'L';
-    // 1 huruf
-    string ub = "xxl";
-    //lebih dari satu huruf
-    cout << "umur saya: "<< u;
-
-    cout << "tinggi saya: "<< t;
-
-    cout << "ukuran baju: "<< b;
-
-    cout << "ukuran baju: "<< ub;
-    cout << endl;
-
-
+    <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Tugas 1 Fendy Alamsyah" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Tugas 1 Fendy Alamsyah" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Tugas 1 Fendy Alamsyah" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
     return 0;
 }
