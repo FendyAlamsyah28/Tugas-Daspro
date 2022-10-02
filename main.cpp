@@ -4,9 +4,25 @@ using namespace std;
 
 int main()
 {
-    cout << "Nama : Fendy Alamsyah" << endl;
-    cout << "NIM : A11.2022.14123" << endl;
-    cout << "Alamat : Jln.Srikandi No.185" << endl;
-    cout << "Asal Sekolah : SMAN 2 Pekalongan" << endl;
+    cout << "Fendy Alamsyah" << endl;
+
+    int u = 18;
+    //bilangan bulat
+    float t = 172.3;
+    //bilangan pecahan
+    char b = 'L';
+    // 1 huruf
+    string ub = "xxl";
+    //lebih dari satu huruf
+    cout << "umur saya: "<< u;
+
+    cout << "tinggi saya: "<< t;
+
+    cout << "ukuran baju: "<< b;
+
+    cout << "ukuran baju: "<< ub;
+    cout << endl;
+
+
     return 0;
 }
